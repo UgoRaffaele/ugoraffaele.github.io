@@ -1399,7 +1399,7 @@ body {
 }
 
 .sidebar-toggle-wrapper {
-  position: fixed;
+  position: absolute;
   z-index: 500;
   top: 30px;
   right: 3%;
