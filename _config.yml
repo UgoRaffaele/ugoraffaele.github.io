@@ -1,0 +1,43 @@
+# Syntax highlighting
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+permalink:           /:title
+relative_permalinks: true
+
+# Setup
+timezone:            Europe/Rome
+locale:              it_IT
+name:				 'UgoRaffaele'
+title:               'UgoRaffaele'
+tagline:             'Nerd, Developer, eCommerce Manager'
+description:         'description'
+url:                 'https://ugoraffaele.github.io'
+rss:                 'https://ugoraffaele.github.io/feed.xml'
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
+icon:                '/assets/img/icon.png' # [best 300px X 300px]
+
+author:
+  name:           	 'UgoRaffaele'
+  url:            	 'https://ugoraffaele.github.io'
+
+fb_admins:           100009394652349
+fb_appid:            1999147807022435
+
+# Server
+destination:      	 ./_site
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CNAME", "LICENSE.md", "Gruntfile.js", "package.json", "node_modules", "sass", "haml"]
+port:             	 4000
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
