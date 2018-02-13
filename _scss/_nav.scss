@@ -67,7 +67,7 @@
 }
 
 .sidebar-toggle-wrapper {
-  position: fixed;
+  position: absolute;
   z-index: $zIndex-5--sidebar-toggle-wrapper;
   top: 30px;
   right: 3%;
