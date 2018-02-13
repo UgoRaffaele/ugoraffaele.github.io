@@ -245,7 +245,7 @@
   float: left;
   margin: 0;
   padding: 0 15px;
-  width: 14.2%;
+  width: 25%;
   height: 25px;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -258,28 +258,16 @@
   }
 }
 
-.socialAccount--twitter {
-  background-image: url(../images/twitter--black.svg);
-}
-
 .socialAccount--facebook {
   background-image: url(../images/facebook--black.svg);
 }
 
-.socialAccount--linkedin {
-  background-image: url(../images/linkedin--black.svg);
+.socialAccount--twitter {
+  background-image: url(../images/twitter--black.svg);
 }
 
-.socialAccount--dribbble {
-  background-image: url(../images/dribbble--black.svg);
-}
-
-.socialAccount--pinterest {
-  background-image: url(../images/pinterest--black.svg);
-}
-
-.socialAccount--kiva {
-  background-image: url(../images/kiva--black.svg);
+.socialAccount--whatsapp {
+  background-image: url(../images/whatsapp--black.svg);
 }
 
 .socialAccount--rss {
