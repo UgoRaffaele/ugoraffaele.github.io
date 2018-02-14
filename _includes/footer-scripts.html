@@ -18,9 +18,9 @@
 
     // Modal toggle behavior
     $('.modal-toggle-wrapper').click(function() {
-    	$(this).toggleClass('active');
+      $(this).toggleClass('active');
       $('.modal-toggle-bubble').toggleClass('active');
-    	$('.modal-toggle-bubbleShadow').toggleClass('active');
+      $('.modal-toggle-bubbleShadow').toggleClass('active');
       $('.modal-toggle-close-wrapper').toggleClass('active');
       $('.fullscreenModal').toggleClass('active');
     });
@@ -45,7 +45,15 @@
   });
 
   // Show modal toggle after scrolling 300px
+  // Hide modal and modal toggle after scrolling less than 300px from top
   $(document).scroll(function() {
     $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
+    if ($(document).scrollTop() < 300) {
+      $('.fullscreenModal').removeClass('active');
+      $('.modal-toggle-bubble').removeClass('active');
+      $('.modal-toggle-bubbleShadow').removeClass('active');
+      $('.modal-toggle-wrapper').removeClass('active');
+      $('.modal-toggle-close-wrapper').removeClass('active');
+    }
   });
 </script>
