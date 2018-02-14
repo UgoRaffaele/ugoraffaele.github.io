@@ -238,6 +238,10 @@
   margin: $leading auto;
   padding-left: 0;
   width: 50%;
+  
+  @media (max-width: $screen-xs-max) {
+    width: 100%;
+  }
 }
 
 .socialAccount {
