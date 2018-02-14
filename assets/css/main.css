@@ -2115,6 +2115,12 @@ body {
   clear: both;
 }
 
+@media (max-width: 767px) {
+  .socialAccountList {
+    width: 100%;
+  }
+}
+
 .socialAccount {
   display: block;
   float: left;
