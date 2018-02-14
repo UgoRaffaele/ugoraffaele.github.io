@@ -317,6 +317,11 @@
 .section--prePost .section-title h2 {
   margin: $leading auto 0;
   display: inline-block;
+  
+  @media (max-width: $screen-xs-max) {
+    font-size: 1.33 * $scale * 1rem;
+    line-height: 1.33 * $leading;
+  }
 }
 
 .section--prePost,
