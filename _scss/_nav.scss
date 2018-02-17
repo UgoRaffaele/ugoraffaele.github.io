@@ -160,7 +160,6 @@
   transform: translateX(-14rem);
 }
 
-.sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle-wrapper {
   position: fixed;
   background-color: rgba($black,0.8);
