@@ -1414,6 +1414,10 @@ body {
   background-color: #666;
 }
 
+.sidebar-toggle-wrapper--black {
+  background-color: #222;
+}
+
 .sidebar-toggle {
   position: absolute;
   z-index: 600;
@@ -1463,9 +1467,10 @@ body {
   transform: rotate(0);
 }
 
-/* .sidebar-toggle--black {
-  background: $black;
-} */
+.sidebar-toggle--black {
+  background-color: #fff;
+}
+
 /* #sidebar-checkbox:checked ~ .postWrapper, */
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .sidebar-toggle-wrapper {
@@ -2402,7 +2407,7 @@ body {
 }
 
 .modal-toggle-bubble.active {
-  -webkit-transform: scale(100);
+  -webkit-transform: scale(125);
   -webkit-transition: all 0.6s ease-out;
   -webkit-transition-delay: .4s;
 }
