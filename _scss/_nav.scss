@@ -85,6 +85,10 @@
   background-color: #666;
 }
 
+.sidebar-toggle-wrapper--black {
+  background-color: $black;
+}
+
 // Sidebar toggle
 
 .sidebar-toggle {
@@ -142,9 +146,9 @@
   }
 }
 
-/* .sidebar-toggle--black {
-  background: $black;
-} */
+.sidebar-toggle--black {
+  background-color: $white;
+}
 
 // sidebar toggle behavior
 
