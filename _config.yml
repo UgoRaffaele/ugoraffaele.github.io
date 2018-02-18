@@ -1,6 +1,5 @@
-# Syntax highlighting
+# Syntax
 markdown:            redcarpet
-highlighter:         pygments
 
 # Permalinks
 permalink:           /:title
@@ -11,14 +10,14 @@ locale:              it_IT
 name:				 'UgoRaffaele'
 title:               'UgoRaffaele'
 tagline:             'Nerd, Developer, eCommerce Manager'
-description:         'description'
+description:         'Focus on WHY instead of WHAT in your code will make you a better developer.'
 url:                 'https://ugoraffaele.github.io'
 rss:                 'https://ugoraffaele.github.io/feed.xml'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                '/assets/img/icon.png' # [best 300px X 300px]
+icon:                '/assets/images/icon.png'
 
 author:
   name:           	 'UgoRaffaele'
