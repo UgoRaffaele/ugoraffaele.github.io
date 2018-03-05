@@ -8,7 +8,7 @@ categories: thoughts
 tags: [open source, free software, considerazioni]
 image:
   feature: open-source.jpg
-  topPosition: -150px
+  topPosition: -333px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
